@@ -1,5 +1,5 @@
-# RiskaSR 2.3.0 Handbook
-# Created 2024/07/19 18:38:42
+# RiskaSR 2.4.0 Handbook
+# Created 2024/08/03 14:24:31
 
 
 # Commands
@@ -24,6 +24,7 @@
 /spawn [npc monster id/prop id] s[stage id] x[amount] lv[level] r[radius] <battle monster ids...>. Spawns a monster or prop near the targeted player.
 /status. Displays the status of the server.
 /stop - Stops the server
+/tp [+-relative x] [+-relative y] [+-relative z]. Teleports the player to the specified pos frm self. (x1000)
 /unstuck @[player id]. Unstucks an offline player if theyre in a scene that doesnt load.
 /windy [name] - Windy!
 /worldlevel [world level]. Sets the targeted player's equilibrium level.
@@ -67,6 +68,9 @@
 1214 : Xueyi
 1215 : Hanya
 1217 : Huohuo
+1218 : Jiaoqiu
+1221 : Yunli
+1224 : March 7th
 1301 : Gallagher
 1302 : Argenti
 1303 : Ruan Mei
@@ -170,6 +174,9 @@
 1214 : Xueyi
 1215 : Hanya
 1217 : Huohuo
+1218 : Jiaoqiu
+1221 : Yunli
+1224 : March 7th
 1301 : Gallagher
 1302 : Argenti
 1303 : Ruan Mei
@@ -194,7 +201,7 @@
 8004 : {NICKNAME}
 8005 : {NICKNAME}
 8006 : {NICKNAME}
-11001 : March 7th's Eidolon
+11001 : March 7th: Preservation's Eidolon
 11002 : Dan Heng's Eidolon
 11003 : Himeko's Eidolon
 11004 : Welt's Eidolon
@@ -231,6 +238,9 @@
 11214 : Xueyi's Eidolon
 11215 : Hanya's Eidolon
 11217 : Huohuo's Eidolon
+11218 : Jiaoqiu's Eidolon
+11221 : Yunli's Eidolon
+11224 : March 7th: The Hunt's Eidolon
 11301 : Gallagher's Eidolon
 11302 : Argenti's Eidolon
 11303 : Ruan Mei's Eidolon
@@ -317,6 +327,7 @@
 21043 : Concert for Two
 21044 : Boundless Choreo
 21045 : After the Charmony Fall
+21046 : Poised to Bloom
 22000 : Before the Tutorial Mission Starts
 22001 : Hey, Over Here
 22002 : For Tomorrow's Journey
@@ -349,6 +360,8 @@
 23026 : Flowing Nightglow
 23027 : Sailing Towards a Second Life
 23028 : Yet Hope Is Priceless
+23029 : Those Many Springs
+23030 : Dance at Sunset
 24000 : On the Fall of an Aeon
 24001 : Cruising in the Stellar Sea
 24002 : Texture of Memories
@@ -977,7 +990,6 @@
 89003 : Planar Ornaments
 89004 : Planar Ornaments
 100000 : Star of Honor
-100001 : Pixel Warhead
 110101 : Tears of Dreams
 110111 : Shattered Blade
 110112 : Lifeless Blade
@@ -1496,6 +1508,8 @@
 140499 : Symbol of Fortune
 140500 : Astral Express Miniature (Limited Edition)
 140501 : Page of Past Dreams
+140502 : Hex Pass
+140503 : An Elder's Note
 149957 : Photo With March 7th
 149958 : Photo With March 7th
 149959 : Thermic Core
@@ -1570,6 +1584,13 @@
 150045 : Pika White Grape Soda
 150046 : Classic SoulGlad
 150047 : Trailbirder ID Card
+150048 : Huaiyan's Testimony
+150049 : Yunli's Testimony
+150050 : Paavo's Testimony
+150051 : Master Gongshu's Testimony
+150052 : Intact Lock
+150053 : Rose Petal
+150054 : Guidance for Stygian Lantern
 180001 : Solid Water
 180002 : Basic Ingredients
 180004 : Phlogiston
@@ -1883,7 +1904,7 @@
 190373 : Curio Management Log (II)
 190374 : Curio Management Log (III)
 190375 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. <unbreak>10</unbreak>: <i>Robe Brethren</i>
-190376 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 9: <i>The Old Verdant Home</i>
+190376 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 9: <i>Verdantia</i>
 190377 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 8: <i>Kaib Mongb Kib</i>
 190378 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 7: <i>Lolling Grass</i>
 190379 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 6: <i>Life on a Plate</i>
@@ -2176,6 +2197,20 @@
 190672 : In-Flight Precautions
 190673 : Mysterious Invitation Received by Qingque
 190674 : Note Left by Gallagher
+190675 : New Londinium Freight Check Report
+190676 : New Londinium's Transport Log Record
+190677 : Other Page of the Alchemy Commission Official Gazette
+190678 : Reminders When Visiting Hoolay
+190679 : Yancui Interrogation Transcript
+190680 : The Shackling Prison Convict Directory — Shapeless Doot-Doot
+190681 : March 7th's Sword Training Notes
+190682 : Sword Hunt Journal: Crimson Thorn
+190683 : Jiaoqiu's Consumable Prescription
+190684 : <i>My Return to the Path</i> Foreword
+190685 : Respect Only the Strong: A Borisin Cultural Study and Commentary
+190686 : Arma Correctional Group Recruitment Notice
+190687 : Yaoqing Recruit Handbook: Borisin Pack Overview
+190688 : Report submitted by the Interastral Peace Corporation's Luofu Office
 190901 : <i>The Adventurous Moles: Hidden Treasure</i> — Table of Contents
 190902 : <i>The Adventurous Moles: Hidden Treasure</i> — Preface
 190903 : <i>The Adventurous Moles: Hidden Treasure</i> — "The Unexpected Parchment"
@@ -2244,7 +2279,9 @@
 200122 : Boothill: Ambush
 200123 : Firefly: Vision
 200124 : SAM: Vision
-201001 : March 7th
+200125 : Bailu: Medicinal Aegis
+200126 : Jiaoqiu: Medicinal Aegis
+201001 : March 7th: Preservation
 201002 : Dan Heng
 201003 : Himeko
 201004 : Welt
@@ -2281,6 +2318,9 @@
 201214 : Xueyi
 201215 : Hanya
 201217 : Huohuo
+201218 : Jiaoqiu
+201221 : Yunli
+201224 : March 7th: The Hunt
 201301 : Gallagher
 201302 : Argenti
 201303 : Ruan Mei
@@ -2424,12 +2464,17 @@
 210353 : "Now, Voyager"
 210354 : "La Messe de l'athée"
 210355 : "Had I Not Seen the Sun"
+210356 : <i>To Naraka We Sink</i>
+210357 : <i>Eight Great Cold Hells</i>
+210358 : <i>Moonhowl Stampede</i>
+210359 : <i>Life's Suffering, An Endless Tide</i>
 220000 : The Art of Language
 220001 : Where's the Rabbit?
 220002 : {TEXTJOIN#54}
 220003 : Celestial Incubator
 220004 : Monster Tavern
 220005 : Cinematic Dreamchase
+220006 : Don't Waste Time
 221000 : Nameless Journey
 221001 : Ingenium Dreams
 221002 : Conductor's Treat
@@ -2928,9 +2973,8 @@
 281017 : Reroll Coin
 281018 : Inspiration
 281019 : Raccoon Tokens
-281020 : Directorial Experience
-281021 : <i>Dreamjoy Memoir</i> Film Reel
 281022 : Synchronicity Points
+281023 : null
 281024 : null
 300002 : Gift of the Pathstriders
 300003 : Grand Gift of the Pathstriders
@@ -2988,7 +3032,7 @@
 401019 : Delicious Shumai
 401020 : Delicious Bean Cake
 401021 : Clockie Pizza (Single Slice)
-401022 : Sliced Cake Stargazer
+401022 : Sliced Cake "Stargazer"
 401023 : Mr. Herring's Lemon Tart
 401024 : Hundred-Layer Sundae (Zero Calories)
 401025 : Classic SoulGlad
@@ -3058,7 +3102,7 @@
 405019 : Recipe: Delicious Shumai
 405020 : Recipe: Delicious Bean Cake
 405021 : Recipe: Clockie Pizza (Single Slice)
-405022 : Recipe: Sliced Cake Stargazer
+405022 : Recipe: Sliced Cake "Stargazer"
 405023 : Recipe: Mr. Herring's Lemon Tart
 405024 : Recipe: Hundred-Layer Sundae (Zero Calories)
 405025 : Recipe: Classic SoulGlad
@@ -3143,6 +3187,8 @@
 408424 : Hello and Goodbye
 408425 : Asdana's White Oak
 408426 : Proof of Trust
+408427 : Arma Correctional Body Wash
+408428 : Ten Lords' Revival Dust
 408601 : Belobog Sausage
 408602 : Stone-Grilled Olm
 408603 : Immortal's Delight
@@ -3173,6 +3219,8 @@
 408628 : Sparkle's Unlimited Edition Collectible Figure
 408629 : Knights of Loose Change
 408630 : Knights of Loose Change
+408631 : Master Thief's Tentacle
+408632 : Arma Sanctus Medicus Tonic
 408801 : Dreamy Cone (Three Flavors)
 408802 : All or Nothing
 
@@ -3220,6 +3268,7 @@
 301 : null
 302 : null
 303 : null
+304 : null
 701 : Stagnant Shadow
 702 : Stagnant Shadow
 703 : Stagnant Shadow
@@ -3236,6 +3285,7 @@
 912 : null
 913 : null
 914 : null
+916 : null
 1000 : Exit the Simulated Universe
 1001 : Downloader
 1002 : Reviver
@@ -3287,9 +3337,6 @@
 3000 : Explore Imaginary Shallow Caries
 3001 : Explore Imaginary Deep Caries
 3002 : Sustenance Anchor
-10031 : null
-10041 : null
-11081 : null
 60001 : Basic Treasure
 60002 : Bountiful Treasure
 60003 : Precious Treasure
@@ -3315,11 +3362,11 @@
 60305 : Bountiful Treasure
 60306 : Precious Treasure
 60307 : Chaos Medicine Box
-100000 : Control Panel
+100000 : Controller
 100001 : Locked Gate
 100002 : Locked Gate
 100003 : Locked Gate
-100004 : Control Panel
+100004 : Controller
 100005 : Locked Gate
 100006 : null
 100007 : null
@@ -3404,8 +3451,8 @@
 100094 : Graffiti Zone
 100095 : Graffiti Zone
 100096 : null
-101001 : Control Panel
-101003 : Control Panel
+101001 : Controller
+101003 : Controller
 101004 : Locked Gate
 101005 : Locked Gate
 101006 : Locked Gate
@@ -3413,7 +3460,7 @@
 101008 : Lift Control Panel
 101010 : null
 101011 : null
-101012 : Control Panel
+101012 : Controller
 101013 : Locked Gate
 101015 : null
 101016 : null
@@ -3655,6 +3702,37 @@
 102224 : null
 102225 : null
 102226 : null
+102227 : null
+102228 : null
+102229 : null
+102230 : null
+102231 : null
+102232 : null
+102233 : null
+102234 : null
+102235 : null
+102236 : null
+102237 : null
+102238 : null
+102241 : null
+102242 : null
+102243 : null
+102244 : null
+102245 : null
+102246 : null
+102247 : null
+102248 : null
+102250 : null
+102251 : null
+102252 : null
+102254 : null
+102255 : null
+102256 : null
+102257 : null
+102258 : null
+102259 : null
+102265 : null
+102281 : null
 103001 : null
 103002 : null
 103003 : null
@@ -4033,6 +4111,7 @@
 2002030 : Wraith Warden
 2004010 : Stellaron Hunter: Kafka
 2004011 : Stellaron Hunter: Kafka (Complete)
+2004012 : Soulhook Sovereign
 2004020 : Cloud Knight Lieutenant: Yanqing
 2004021 : Cloud Knight Lieutenant: Yanqing (Complete)
 2011010 : Entranced Ingenium: Obedient Dracolion
@@ -4067,6 +4146,9 @@
 2024011 : Abundant Ebon Deer (Complete)
 2024020 : Cirrus
 2024021 : Cirrus (Complete)
+2032010 : Sableclaw Wolftrooper
+2032020 : Eclipse Wolftrooper
+2033010 : Howling Casket
 3001010 : Dreamjolt Troupe's Spring Loader
 3001020 : Dreamjolt Troupe's Birdskull
 3001021 : Dreamjolt Troupe's Birdskull
@@ -4094,6 +4176,7 @@
 3003051 : "Present Inebriated in Revelry"
 3003052 : "Present Inebriated in Revelry" (Bug)
 3003053 : The Past, Present, and Eternal Show (Complete)
+3004011 : null
 3011010 : Memory Zone Meme "Allseer"
 3012010 : Memory Zone Meme "Something In The Mirror"
 3012020 : Memory Zone Meme "Heartbreaker"
@@ -4151,6 +4234,8 @@
 8013012 : Voidranger: Trampler
 8013013 : Voidranger: Trampler (Bug)
 8013014 : Voidranger: Trampler
+8015010 : null
+8015012 : null
 8022010 : Juvenile Sting
 8024010 : Swarm: True Sting (Complete)
 8024011 : Swarm: True Sting
@@ -4440,6 +4525,18 @@
 1191 : [Level 95] "Past Confined and Caged" (Bug)
 1192 : [Level 95] The Past, Present, and Eternal Show (Complete)
 1193 : [Level 95] Cirrus (Complete)
+1194 : [Level 95] Soulhook Sovereign
+1195 : [Level 95] Dreamjolt Troupe's Beyond Overcooked
+1196 : [Level 95] Memory Zone Meme "Shell of Faded Rage"
+1197 : [Level 95] Ice Out of Space
+1198 : [Level 95] Blaze Out of Space
+1199 : [Level 95] Starbane Doombringer
+1200 : [Level 95] Disaster's Right Hand
+1201 : [Level 95] Dawn's Left Hand
+1202 : [Level 95] Antimatter Engine
+1203 : [Level 95] Sableclaw Wolftrooper
+1204 : [Level 95] Eclipse Wolftrooper
+1205 : [Level 95] Howling Casket
 1995 : [Level 95] Memory Zone Meme "Insatiable Vanity"
 1996 : [Level 95] Dreamjolt Troupe's Mr. Domescreen
 1997 : [Level 95] Memory Zone Meme "Something In The Mirror"
@@ -4605,6 +4702,8 @@
 312140 : [Level 80] The Ascended
 312150 : [Level 80] Voidranger: Trampler
 312170 : [Level 80] Guardian Shadow
+312180 : [Level 80] Stormbringer
+312210 : [Level 80] Aurumaton Gatekeeper
 313010 : [Level 80] Senior Staff: Team Leader
 313020 : [Level 80] Silvermane Lieutenant
 313030 : [Level 80] Silvermane Lieutenant
@@ -4662,6 +4761,12 @@
 400203 : [Level 30] Antimatter Legion
 400206 : [Level 30] Antimatter Legion
 400207 : [Level 80] Memory Zone Meme "Shell of Faded Rage"
+418001 : [Level 80] Cloud Knights Patroller
+418002 : [Level 80] Aurumaton Gatekeeper
+418003 : [Level 80] Cloud Knight Lieutenant: Yanqing
+418004 : [Level 80] Cloud Knights Patroller
+418005 : [Level 80] Aurumaton Gatekeeper (Bug)
+418006 : [Level 80] Cloud Knight Lieutenant: Yanqing (Complete)
 420012 : [Level 90] Abundant Ebon Deer (Illusion)
 420022 : [Level 90] Stellaron Hunter: Kafka (Illusion)
 420032 : [Level 90] Cloud Knight Lieutenant: Yanqing (Illusion)
@@ -4675,6 +4780,14 @@
 420112 : [Level 70] Silver Knight of Virtuous Gallantry
 420113 : [Level 80] Silver Knight of Virtuous Gallantry
 420114 : [Level 90] Silver Knight of Virtuous Gallantry
+420121 : [Level 60] Starbane Doombringer
+420122 : [Level 70] Starbane Doombringer
+420123 : [Level 80] Starbane Doombringer
+420124 : [Level 90] Starbane Doombringer
+420131 : [Level 60] Soulhook Sovereign
+420132 : [Level 70] Soulhook Sovereign
+420133 : [Level 80] Soulhook Sovereign
+420134 : [Level 90] Soulhook Sovereign
 900009 : [Level 20] Automaton Hound
 900010 : [Level 20] Automaton Hound
 900011 : [Level 20] Automaton Beetle
@@ -8202,6 +8315,76 @@
 4200514 : [Level 68] Cocolia (Illusion)
 4200515 : [Level 75] Cocolia (Illusion)
 4200516 : [Level 80] Cocolia (Illusion)
+4210010 : [Level 16] Fragmentum Monster
+4210011 : [Level 25] Fragmentum Monster
+4210012 : [Level 35] Fragmentum Monster
+4210013 : [Level 45] Fragmentum Monster
+4210014 : [Level 55] Fragmentum Monster
+4210015 : [Level 72] Fragmentum Monster
+4210016 : [Level 80] Fragmentum Monster
+4210020 : [Level 16] Fragmentum Monster
+4210021 : [Level 25] Fragmentum Monster
+4210022 : [Level 35] Fragmentum Monster
+4210023 : [Level 45] Fragmentum Monster
+4210024 : [Level 55] Fragmentum Monster
+4210025 : [Level 72] Fragmentum Monster
+4210026 : [Level 80] Fragmentum Monster
+4210110 : [Level 16] Fragmentum Monster
+4210111 : [Level 25] Fragmentum Monster
+4210112 : [Level 35] Fragmentum Monster
+4210113 : [Level 45] Fragmentum Monster
+4210114 : [Level 55] Fragmentum Monster
+4210115 : [Level 72] Fragmentum Monster
+4210116 : [Level 80] Fragmentum Monster
+4210120 : [Level 16] Fragmentum Monster
+4210121 : [Level 25] Fragmentum Monster
+4210122 : [Level 35] Fragmentum Monster
+4210123 : [Level 45] Fragmentum Monster
+4210124 : [Level 55] Fragmentum Monster
+4210125 : [Level 72] Fragmentum Monster
+4210126 : [Level 80] Fragmentum Monster
+4210210 : [Level 16] Fragmentum Monster
+4210211 : [Level 25] Fragmentum Monster
+4210212 : [Level 35] Fragmentum Monster
+4210213 : [Level 45] Fragmentum Monster
+4210214 : [Level 55] Fragmentum Monster
+4210215 : [Level 72] Fragmentum Monster
+4210216 : [Level 80] Fragmentum Monster
+4210220 : [Level 16] Fragmentum Monster
+4210221 : [Level 25] Fragmentum Monster
+4210222 : [Level 35] Fragmentum Monster
+4210223 : [Level 45] Fragmentum Monster
+4210224 : [Level 55] Fragmentum Monster
+4210225 : [Level 72] Fragmentum Monster
+4210226 : [Level 80] Fragmentum Monster
+4210310 : [Level 16] Fragmentum Monster
+4210311 : [Level 25] Fragmentum Monster
+4210312 : [Level 35] Fragmentum Monster
+4210313 : [Level 45] Fragmentum Monster
+4210314 : [Level 55] Fragmentum Monster
+4210315 : [Level 72] Fragmentum Monster
+4210316 : [Level 80] Fragmentum Monster
+4210320 : [Level 16] Fragmentum Monster
+4210321 : [Level 25] Fragmentum Monster
+4210322 : [Level 35] Fragmentum Monster
+4210323 : [Level 45] Fragmentum Monster
+4210324 : [Level 55] Fragmentum Monster
+4210325 : [Level 72] Fragmentum Monster
+4210326 : [Level 80] Fragmentum Monster
+4210410 : [Level 16] Fragmentum Monster
+4210411 : [Level 25] Fragmentum Monster
+4210412 : [Level 35] Fragmentum Monster
+4210413 : [Level 45] Fragmentum Monster
+4210414 : [Level 55] Fragmentum Monster
+4210415 : [Level 72] Fragmentum Monster
+4210416 : [Level 80] Fragmentum Monster
+4210420 : [Level 16] Fragmentum Monster
+4210421 : [Level 25] Fragmentum Monster
+4210422 : [Level 35] Fragmentum Monster
+4210423 : [Level 45] Fragmentum Monster
+4210424 : [Level 55] Fragmentum Monster
+4210425 : [Level 72] Fragmentum Monster
+4210426 : [Level 80] Fragmentum Monster
 9000010 : [Level 25] Automaton Spider
 9000011 : [Level 25] Automaton Spider
 9000012 : [Level 25] Automaton Spider
@@ -8853,6 +9036,9 @@
 9004484 : [Level 65] Fragmentum Monster
 9004485 : [Level 75] Fragmentum Monster
 9004486 : [Level 78] Fragmentum Monster
+20241205 : [Level 82] null
+20241207 : [Level 82] null
+20241208 : [Level 82] null
 30001011 : [Level 32] Voidranger: Trampler
 30001021 : [Level 36] Automaton Direwolf
 30001031 : [Level 39] Ice Out of Space
@@ -9609,6 +9795,30 @@
 30106112 : [Level 92] Stellaron Hunter: Kafka
 30106121 : [Level 95] "Present Inebriated in Revelry"
 30106122 : [Level 95] Argenti
+30107011 : [Level 68] Senior Staff: Team Leader
+30107012 : [Level 68] Disciples of Sanctus Medicus: Shape Shifter
+30107021 : [Level 70] "Tomorrow in Harmonious Chords"
+30107022 : [Level 70] Howling Casket
+30107031 : [Level 73] Memory Zone Meme "Shell of Faded Rage"
+30107032 : [Level 73] Swarm: True Sting
+30107041 : [Level 75] Disciples of Sanctus Medicus: Shape Shifter
+30107042 : [Level 75] The Ascended
+30107051 : [Level 78] Howling Casket
+30107052 : [Level 78] "Present Inebriated in Revelry"
+30107061 : [Level 80] Senior Staff: Team Leader
+30107062 : [Level 80] Abundance Sprite: Malefic Ape
+30107071 : [Level 82] "Tomorrow in Harmonious Chords"
+30107072 : [Level 82] Howling Casket
+30107081 : [Level 85] Memory Zone Meme "Shell of Faded Rage"
+30107082 : [Level 85] Swarm: True Sting
+30107091 : [Level 88] Disciples of Sanctus Medicus: Shape Shifter
+30107092 : [Level 88] The Ascended
+30107101 : [Level 90] Howling Casket
+30107102 : [Level 90] "Present Inebriated in Revelry"
+30107111 : [Level 92] Stellaron Hunter: Kafka
+30107112 : [Level 92] Ten Stonehearts: Aventurine of Stratagems
+30107121 : [Level 95] Gepard
+30107122 : [Level 95] Memory Zone Meme "Something Unto Death"
 30301011 : [Level 55] Silvermane Lieutenant
 30301012 : [Level 55] Decaying Shadow
 30301021 : [Level 65] Ice Out of Space
@@ -9649,6 +9859,14 @@
 30305032 : [Level 75] Senior Staff: Team Leader
 30305041 : [Level 85] Gepard
 30305042 : [Level 85] Abundant Ebon Deer
+30306011 : [Level 55] Guardian Shadow
+30306012 : [Level 55] Aurumaton Spectral Envoy
+30306021 : [Level 65] Stormbringer
+30306022 : [Level 65] Decaying Shadow
+30306031 : [Level 75] Guardian Shadow
+30306032 : [Level 75] Aurumaton Spectral Envoy
+30306041 : [Level 85] Stellaron Hunter: Kafka
+30306042 : [Level 85] Cocolia
 43103001 : [Level 2] Aether Spirit
 43103002 : [Level 3] Aether Spirit
 43103003 : [Level 4] Aether Spirit
@@ -16117,6 +16335,503 @@
 202322354 : [Level 72] Abomination Legion
 202322355 : [Level 80] Abomination Legion
 202322356 : [Level 85] Abomination Legion
+202410010 : [Level 24] Escaped Prisoner
+202410011 : [Level 34] Escaped Prisoner
+202410012 : [Level 44] Escaped Prisoner
+202410013 : [Level 54] Escaped Prisoner
+202410014 : [Level 64] Escaped Prisoner
+202410015 : [Level 75] Escaped Prisoner
+202410016 : [Level 88] Escaped Prisoner
+202410020 : [Level 24] Escaped Prisoner
+202410021 : [Level 34] Escaped Prisoner
+202410022 : [Level 44] Escaped Prisoner
+202410023 : [Level 54] Escaped Prisoner
+202410024 : [Level 64] Escaped Prisoner
+202410025 : [Level 75] Escaped Prisoner
+202410026 : [Level 88] Escaped Prisoner
+202410030 : [Level 24] Escaped Prisoner
+202410031 : [Level 34] Escaped Prisoner
+202410032 : [Level 44] Escaped Prisoner
+202410033 : [Level 54] Escaped Prisoner
+202410034 : [Level 64] Escaped Prisoner
+202410035 : [Level 75] Escaped Prisoner
+202410036 : [Level 88] Escaped Prisoner
+202410060 : [Level 24] Escaped Prisoner
+202410061 : [Level 34] Escaped Prisoner
+202410062 : [Level 44] Escaped Prisoner
+202410063 : [Level 54] Escaped Prisoner
+202410064 : [Level 64] Escaped Prisoner
+202410065 : [Level 75] Escaped Prisoner
+202410066 : [Level 88] Escaped Prisoner
+202410070 : [Level 24] Escaped Prisoner
+202410071 : [Level 34] Escaped Prisoner
+202410072 : [Level 44] Escaped Prisoner
+202410073 : [Level 54] Escaped Prisoner
+202410074 : [Level 64] Escaped Prisoner
+202410075 : [Level 75] Escaped Prisoner
+202410076 : [Level 88] Escaped Prisoner
+202410080 : [Level 24] Escaped Prisoner
+202410081 : [Level 34] Escaped Prisoner
+202410082 : [Level 44] Escaped Prisoner
+202410083 : [Level 54] Escaped Prisoner
+202410084 : [Level 64] Escaped Prisoner
+202410085 : [Level 75] Escaped Prisoner
+202410086 : [Level 88] Escaped Prisoner
+202410090 : [Level 24] Escaped Prisoner
+202410091 : [Level 34] Escaped Prisoner
+202410092 : [Level 44] Escaped Prisoner
+202410093 : [Level 54] Escaped Prisoner
+202410094 : [Level 64] Escaped Prisoner
+202410095 : [Level 75] Escaped Prisoner
+202410096 : [Level 88] Escaped Prisoner
+202410110 : [Level 24] Escaped Prisoner
+202410111 : [Level 34] Escaped Prisoner
+202410112 : [Level 44] Escaped Prisoner
+202410113 : [Level 54] Escaped Prisoner
+202410114 : [Level 64] Escaped Prisoner
+202410115 : [Level 75] Escaped Prisoner
+202410116 : [Level 88] Escaped Prisoner
+202410120 : [Level 24] Escaped Prisoner
+202410121 : [Level 34] Escaped Prisoner
+202410122 : [Level 44] Escaped Prisoner
+202410123 : [Level 54] Escaped Prisoner
+202410124 : [Level 64] Escaped Prisoner
+202410125 : [Level 75] Escaped Prisoner
+202410126 : [Level 88] Escaped Prisoner
+202410130 : [Level 24] Escaped Prisoner
+202410131 : [Level 34] Escaped Prisoner
+202410132 : [Level 44] Escaped Prisoner
+202410133 : [Level 54] Escaped Prisoner
+202410134 : [Level 64] Escaped Prisoner
+202410135 : [Level 75] Escaped Prisoner
+202410136 : [Level 88] Escaped Prisoner
+202410140 : [Level 24] Escaped Prisoner
+202410141 : [Level 34] Escaped Prisoner
+202410142 : [Level 44] Escaped Prisoner
+202410143 : [Level 54] Escaped Prisoner
+202410144 : [Level 64] Escaped Prisoner
+202410145 : [Level 75] Escaped Prisoner
+202410146 : [Level 88] Escaped Prisoner
+202410160 : [Level 24] Escaped Prisoner
+202410161 : [Level 34] Escaped Prisoner
+202410162 : [Level 44] Escaped Prisoner
+202410163 : [Level 54] Escaped Prisoner
+202410164 : [Level 64] Escaped Prisoner
+202410165 : [Level 75] Escaped Prisoner
+202410166 : [Level 88] Escaped Prisoner
+202410170 : [Level 24] Escaped Prisoner
+202410171 : [Level 34] Escaped Prisoner
+202410172 : [Level 44] Escaped Prisoner
+202410173 : [Level 54] Escaped Prisoner
+202410174 : [Level 64] Escaped Prisoner
+202410175 : [Level 75] Escaped Prisoner
+202410176 : [Level 88] Escaped Prisoner
+202410180 : [Level 24] Escaped Prisoner
+202410181 : [Level 34] Escaped Prisoner
+202410182 : [Level 44] Escaped Prisoner
+202410183 : [Level 54] Escaped Prisoner
+202410184 : [Level 64] Escaped Prisoner
+202410185 : [Level 75] Escaped Prisoner
+202410186 : [Level 88] Escaped Prisoner
+202410210 : [Level 24] Escaped Prisoner
+202410211 : [Level 34] Escaped Prisoner
+202410212 : [Level 44] Escaped Prisoner
+202410213 : [Level 54] Escaped Prisoner
+202410214 : [Level 64] Escaped Prisoner
+202410215 : [Level 75] Escaped Prisoner
+202410216 : [Level 88] Escaped Prisoner
+202410220 : [Level 24] Escaped Prisoner
+202410221 : [Level 34] Escaped Prisoner
+202410222 : [Level 44] Escaped Prisoner
+202410223 : [Level 54] Escaped Prisoner
+202410224 : [Level 64] Escaped Prisoner
+202410225 : [Level 75] Escaped Prisoner
+202410226 : [Level 88] Escaped Prisoner
+202410230 : [Level 24] Escaped Prisoner
+202410231 : [Level 34] Escaped Prisoner
+202410232 : [Level 44] Escaped Prisoner
+202410233 : [Level 54] Escaped Prisoner
+202410234 : [Level 64] Escaped Prisoner
+202410235 : [Level 75] Escaped Prisoner
+202410236 : [Level 88] Escaped Prisoner
+202410240 : [Level 24] Escaped Prisoner
+202410241 : [Level 34] Escaped Prisoner
+202410242 : [Level 44] Escaped Prisoner
+202410243 : [Level 54] Escaped Prisoner
+202410244 : [Level 64] Escaped Prisoner
+202410245 : [Level 75] Escaped Prisoner
+202410246 : [Level 88] Escaped Prisoner
+202410250 : [Level 24] Escaped Prisoner
+202410251 : [Level 34] Escaped Prisoner
+202410252 : [Level 44] Escaped Prisoner
+202410253 : [Level 54] Escaped Prisoner
+202410254 : [Level 64] Escaped Prisoner
+202410255 : [Level 75] Escaped Prisoner
+202410256 : [Level 88] Escaped Prisoner
+202410260 : [Level 24] Escaped Prisoner
+202410261 : [Level 34] Escaped Prisoner
+202410262 : [Level 44] Escaped Prisoner
+202410263 : [Level 54] Escaped Prisoner
+202410264 : [Level 64] Escaped Prisoner
+202410265 : [Level 75] Escaped Prisoner
+202410266 : [Level 88] Escaped Prisoner
+202410270 : [Level 24] Escaped Prisoner
+202410271 : [Level 34] Escaped Prisoner
+202410272 : [Level 44] Escaped Prisoner
+202410273 : [Level 54] Escaped Prisoner
+202410274 : [Level 64] Escaped Prisoner
+202410275 : [Level 75] Escaped Prisoner
+202410276 : [Level 88] Escaped Prisoner
+202410280 : [Level 24] Escaped Prisoner
+202410281 : [Level 34] Escaped Prisoner
+202410282 : [Level 44] Escaped Prisoner
+202410283 : [Level 54] Escaped Prisoner
+202410284 : [Level 64] Escaped Prisoner
+202410285 : [Level 75] Escaped Prisoner
+202410286 : [Level 88] Escaped Prisoner
+202410290 : [Level 24] Escaped Prisoner
+202410291 : [Level 34] Escaped Prisoner
+202410292 : [Level 44] Escaped Prisoner
+202410293 : [Level 54] Escaped Prisoner
+202410294 : [Level 64] Escaped Prisoner
+202410295 : [Level 75] Escaped Prisoner
+202410296 : [Level 88] Escaped Prisoner
+202410310 : [Level 24] Escaped Prisoner
+202410311 : [Level 34] Escaped Prisoner
+202410312 : [Level 44] Escaped Prisoner
+202410313 : [Level 54] Escaped Prisoner
+202410314 : [Level 64] Escaped Prisoner
+202410315 : [Level 75] Escaped Prisoner
+202410316 : [Level 88] Escaped Prisoner
+202410320 : [Level 24] Escaped Prisoner
+202410321 : [Level 34] Escaped Prisoner
+202410322 : [Level 44] Escaped Prisoner
+202410323 : [Level 54] Escaped Prisoner
+202410324 : [Level 64] Escaped Prisoner
+202410325 : [Level 75] Escaped Prisoner
+202410326 : [Level 88] Escaped Prisoner
+202410330 : [Level 24] Escaped Prisoner
+202410331 : [Level 34] Escaped Prisoner
+202410332 : [Level 44] Escaped Prisoner
+202410333 : [Level 54] Escaped Prisoner
+202410334 : [Level 64] Escaped Prisoner
+202410335 : [Level 75] Escaped Prisoner
+202410336 : [Level 88] Escaped Prisoner
+202410340 : [Level 24] Escaped Prisoner
+202410341 : [Level 34] Escaped Prisoner
+202410342 : [Level 44] Escaped Prisoner
+202410343 : [Level 54] Escaped Prisoner
+202410344 : [Level 64] Escaped Prisoner
+202410345 : [Level 75] Escaped Prisoner
+202410346 : [Level 88] Escaped Prisoner
+202410350 : [Level 24] Escaped Prisoner
+202410351 : [Level 34] Escaped Prisoner
+202410352 : [Level 44] Escaped Prisoner
+202410353 : [Level 54] Escaped Prisoner
+202410354 : [Level 64] Escaped Prisoner
+202410355 : [Level 75] Escaped Prisoner
+202410356 : [Level 88] Escaped Prisoner
+202410360 : [Level 24] Escaped Prisoner
+202410361 : [Level 34] Escaped Prisoner
+202410362 : [Level 44] Escaped Prisoner
+202410363 : [Level 54] Escaped Prisoner
+202410364 : [Level 64] Escaped Prisoner
+202410365 : [Level 75] Escaped Prisoner
+202410366 : [Level 88] Escaped Prisoner
+202410370 : [Level 24] Escaped Prisoner
+202410371 : [Level 34] Escaped Prisoner
+202410372 : [Level 44] Escaped Prisoner
+202410373 : [Level 54] Escaped Prisoner
+202410374 : [Level 64] Escaped Prisoner
+202410375 : [Level 75] Escaped Prisoner
+202410376 : [Level 88] Escaped Prisoner
+202410380 : [Level 24] Escaped Prisoner
+202410381 : [Level 34] Escaped Prisoner
+202410382 : [Level 44] Escaped Prisoner
+202410383 : [Level 54] Escaped Prisoner
+202410384 : [Level 64] Escaped Prisoner
+202410385 : [Level 75] Escaped Prisoner
+202410386 : [Level 88] Escaped Prisoner
+202410390 : [Level 24] Escaped Prisoner
+202410391 : [Level 34] Escaped Prisoner
+202410392 : [Level 44] Escaped Prisoner
+202410393 : [Level 54] Escaped Prisoner
+202410394 : [Level 64] Escaped Prisoner
+202410395 : [Level 75] Escaped Prisoner
+202410396 : [Level 88] Escaped Prisoner
+202410400 : [Level 24] Escaped Prisoner
+202410401 : [Level 34] Escaped Prisoner
+202410402 : [Level 44] Escaped Prisoner
+202410403 : [Level 54] Escaped Prisoner
+202410404 : [Level 64] Escaped Prisoner
+202410405 : [Level 75] Escaped Prisoner
+202410406 : [Level 88] Escaped Prisoner
+202410510 : [Level 24] null
+202410511 : [Level 34] null
+202410512 : [Level 44] null
+202410513 : [Level 54] null
+202410514 : [Level 64] null
+202410515 : [Level 75] null
+202410516 : [Level 88] null
+202410520 : [Level 24] null
+202410521 : [Level 34] null
+202410522 : [Level 44] null
+202410523 : [Level 54] null
+202410524 : [Level 64] null
+202410525 : [Level 75] null
+202410526 : [Level 88] null
+202410530 : [Level 24] null
+202410531 : [Level 34] null
+202410532 : [Level 44] null
+202410533 : [Level 54] null
+202410534 : [Level 64] null
+202410535 : [Level 75] null
+202410536 : [Level 88] null
+202410540 : [Level 24] null
+202410541 : [Level 34] null
+202410542 : [Level 44] null
+202410543 : [Level 54] null
+202410544 : [Level 64] null
+202410545 : [Level 75] null
+202410546 : [Level 88] null
+202410560 : [Level 24] null
+202410561 : [Level 34] null
+202410562 : [Level 44] null
+202410563 : [Level 54] null
+202410564 : [Level 64] null
+202410565 : [Level 75] null
+202410566 : [Level 88] null
+202410570 : [Level 24] null
+202410571 : [Level 34] null
+202410572 : [Level 44] null
+202410573 : [Level 54] null
+202410574 : [Level 64] null
+202410575 : [Level 75] null
+202410576 : [Level 88] null
+202410580 : [Level 24] null
+202410581 : [Level 34] null
+202410582 : [Level 44] null
+202410583 : [Level 54] null
+202410584 : [Level 64] null
+202410585 : [Level 75] null
+202410586 : [Level 88] null
+202410590 : [Level 24] null
+202410591 : [Level 34] null
+202410592 : [Level 44] null
+202410593 : [Level 54] null
+202410594 : [Level 64] null
+202410595 : [Level 75] null
+202410596 : [Level 88] null
+202410600 : [Level 24] null
+202410601 : [Level 34] null
+202410602 : [Level 44] null
+202410603 : [Level 54] null
+202410604 : [Level 64] null
+202410605 : [Level 75] null
+202410606 : [Level 88] null
+202410610 : [Level 24] null
+202410611 : [Level 34] null
+202410612 : [Level 44] null
+202410613 : [Level 54] null
+202410614 : [Level 64] null
+202410615 : [Level 75] null
+202410616 : [Level 88] null
+202411010 : [Level 24] Escaped Prisoner
+202411011 : [Level 34] Escaped Prisoner
+202411012 : [Level 44] Escaped Prisoner
+202411013 : [Level 54] Escaped Prisoner
+202411014 : [Level 64] Escaped Prisoner
+202411015 : [Level 75] Escaped Prisoner
+202411016 : [Level 88] Escaped Prisoner
+202411020 : [Level 24] Escaped Prisoner
+202411021 : [Level 34] Escaped Prisoner
+202411022 : [Level 44] Escaped Prisoner
+202411023 : [Level 54] Escaped Prisoner
+202411024 : [Level 64] Escaped Prisoner
+202411025 : [Level 75] Escaped Prisoner
+202411026 : [Level 88] Escaped Prisoner
+202411030 : [Level 24] Escaped Prisoner
+202411031 : [Level 34] Escaped Prisoner
+202411032 : [Level 44] Escaped Prisoner
+202411033 : [Level 54] Escaped Prisoner
+202411034 : [Level 64] Escaped Prisoner
+202411035 : [Level 75] Escaped Prisoner
+202411036 : [Level 88] Escaped Prisoner
+202411060 : [Level 24] Escaped Prisoner
+202411061 : [Level 34] Escaped Prisoner
+202411062 : [Level 44] Escaped Prisoner
+202411063 : [Level 54] Escaped Prisoner
+202411064 : [Level 64] Escaped Prisoner
+202411065 : [Level 75] Escaped Prisoner
+202411066 : [Level 88] Escaped Prisoner
+202411070 : [Level 24] Escaped Prisoner
+202411071 : [Level 34] Escaped Prisoner
+202411072 : [Level 44] Escaped Prisoner
+202411073 : [Level 54] Escaped Prisoner
+202411074 : [Level 64] Escaped Prisoner
+202411075 : [Level 75] Escaped Prisoner
+202411076 : [Level 88] Escaped Prisoner
+202411080 : [Level 24] Escaped Prisoner
+202411081 : [Level 34] Escaped Prisoner
+202411082 : [Level 44] Escaped Prisoner
+202411083 : [Level 54] Escaped Prisoner
+202411084 : [Level 64] Escaped Prisoner
+202411085 : [Level 75] Escaped Prisoner
+202411086 : [Level 88] Escaped Prisoner
+202411090 : [Level 24] Escaped Prisoner
+202411091 : [Level 34] Escaped Prisoner
+202411092 : [Level 44] Escaped Prisoner
+202411093 : [Level 54] Escaped Prisoner
+202411094 : [Level 64] Escaped Prisoner
+202411095 : [Level 75] Escaped Prisoner
+202411096 : [Level 88] Escaped Prisoner
+202411110 : [Level 24] Escaped Prisoner
+202411111 : [Level 34] Escaped Prisoner
+202411112 : [Level 44] Escaped Prisoner
+202411113 : [Level 54] Escaped Prisoner
+202411114 : [Level 64] Escaped Prisoner
+202411115 : [Level 75] Escaped Prisoner
+202411116 : [Level 88] Escaped Prisoner
+202411120 : [Level 24] Escaped Prisoner
+202411121 : [Level 34] Escaped Prisoner
+202411122 : [Level 44] Escaped Prisoner
+202411123 : [Level 54] Escaped Prisoner
+202411124 : [Level 64] Escaped Prisoner
+202411125 : [Level 75] Escaped Prisoner
+202411126 : [Level 88] Escaped Prisoner
+202411130 : [Level 24] Escaped Prisoner
+202411131 : [Level 34] Escaped Prisoner
+202411132 : [Level 44] Escaped Prisoner
+202411133 : [Level 54] Escaped Prisoner
+202411134 : [Level 64] Escaped Prisoner
+202411135 : [Level 75] Escaped Prisoner
+202411136 : [Level 88] Escaped Prisoner
+202411140 : [Level 24] Escaped Prisoner
+202411141 : [Level 34] Escaped Prisoner
+202411142 : [Level 44] Escaped Prisoner
+202411143 : [Level 54] Escaped Prisoner
+202411144 : [Level 64] Escaped Prisoner
+202411145 : [Level 75] Escaped Prisoner
+202411146 : [Level 88] Escaped Prisoner
+202411160 : [Level 24] Escaped Prisoner
+202411161 : [Level 34] Escaped Prisoner
+202411162 : [Level 44] Escaped Prisoner
+202411163 : [Level 54] Escaped Prisoner
+202411164 : [Level 64] Escaped Prisoner
+202411165 : [Level 75] Escaped Prisoner
+202411166 : [Level 88] Escaped Prisoner
+202411170 : [Level 24] Escaped Prisoner
+202411171 : [Level 34] Escaped Prisoner
+202411172 : [Level 44] Escaped Prisoner
+202411173 : [Level 54] Escaped Prisoner
+202411174 : [Level 64] Escaped Prisoner
+202411175 : [Level 75] Escaped Prisoner
+202411176 : [Level 88] Escaped Prisoner
+202411180 : [Level 24] Escaped Prisoner
+202411181 : [Level 34] Escaped Prisoner
+202411182 : [Level 44] Escaped Prisoner
+202411183 : [Level 54] Escaped Prisoner
+202411184 : [Level 64] Escaped Prisoner
+202411185 : [Level 75] Escaped Prisoner
+202411186 : [Level 88] Escaped Prisoner
+202411210 : [Level 24] Escaped Prisoner
+202411211 : [Level 34] Escaped Prisoner
+202411212 : [Level 44] Escaped Prisoner
+202411213 : [Level 54] Escaped Prisoner
+202411214 : [Level 64] Escaped Prisoner
+202411215 : [Level 75] Escaped Prisoner
+202411216 : [Level 88] Escaped Prisoner
+202411220 : [Level 24] Escaped Prisoner
+202411221 : [Level 34] Escaped Prisoner
+202411222 : [Level 44] Escaped Prisoner
+202411223 : [Level 54] Escaped Prisoner
+202411224 : [Level 64] Escaped Prisoner
+202411225 : [Level 75] Escaped Prisoner
+202411226 : [Level 88] Escaped Prisoner
+202411230 : [Level 24] Escaped Prisoner
+202411231 : [Level 34] Escaped Prisoner
+202411232 : [Level 44] Escaped Prisoner
+202411233 : [Level 54] Escaped Prisoner
+202411234 : [Level 64] Escaped Prisoner
+202411235 : [Level 75] Escaped Prisoner
+202411236 : [Level 88] Escaped Prisoner
+202411240 : [Level 24] Escaped Prisoner
+202411241 : [Level 34] Escaped Prisoner
+202411242 : [Level 44] Escaped Prisoner
+202411243 : [Level 54] Escaped Prisoner
+202411244 : [Level 64] Escaped Prisoner
+202411245 : [Level 75] Escaped Prisoner
+202411246 : [Level 88] Escaped Prisoner
+202411250 : [Level 24] Escaped Prisoner
+202411251 : [Level 34] Escaped Prisoner
+202411252 : [Level 44] Escaped Prisoner
+202411253 : [Level 54] Escaped Prisoner
+202411254 : [Level 64] Escaped Prisoner
+202411255 : [Level 75] Escaped Prisoner
+202411256 : [Level 88] Escaped Prisoner
+202411260 : [Level 24] Escaped Prisoner
+202411261 : [Level 34] Escaped Prisoner
+202411262 : [Level 44] Escaped Prisoner
+202411263 : [Level 54] Escaped Prisoner
+202411264 : [Level 64] Escaped Prisoner
+202411265 : [Level 75] Escaped Prisoner
+202411266 : [Level 88] Escaped Prisoner
+202411270 : [Level 24] Escaped Prisoner
+202411271 : [Level 34] Escaped Prisoner
+202411272 : [Level 44] Escaped Prisoner
+202411273 : [Level 54] Escaped Prisoner
+202411274 : [Level 64] Escaped Prisoner
+202411275 : [Level 75] Escaped Prisoner
+202411276 : [Level 88] Escaped Prisoner
+202411280 : [Level 24] Escaped Prisoner
+202411281 : [Level 34] Escaped Prisoner
+202411282 : [Level 44] Escaped Prisoner
+202411283 : [Level 54] Escaped Prisoner
+202411284 : [Level 64] Escaped Prisoner
+202411285 : [Level 75] Escaped Prisoner
+202411286 : [Level 88] Escaped Prisoner
+202411290 : [Level 24] Escaped Prisoner
+202411291 : [Level 34] Escaped Prisoner
+202411292 : [Level 44] Escaped Prisoner
+202411293 : [Level 54] Escaped Prisoner
+202411294 : [Level 64] Escaped Prisoner
+202411295 : [Level 75] Escaped Prisoner
+202411296 : [Level 88] Escaped Prisoner
+202411700 : [Level 24] Warp Trotter
+202411701 : [Level 34] Warp Trotter
+202411702 : [Level 44] Warp Trotter
+202411703 : [Level 54] Warp Trotter
+202411704 : [Level 64] Warp Trotter
+202411705 : [Level 75] Warp Trotter
+202411706 : [Level 88] Warp Trotter
+202412010 : [Level 24] null
+202412011 : [Level 34] null
+202412012 : [Level 44] null
+202412013 : [Level 54] null
+202412014 : [Level 64] null
+202412015 : [Level 75] null
+202412016 : [Level 88] null
+202412020 : [Level 24] null
+202412021 : [Level 34] null
+202412022 : [Level 44] null
+202412023 : [Level 54] null
+202412024 : [Level 64] null
+202412025 : [Level 75] null
+202412026 : [Level 88] null
+202412060 : [Level 24] null
+202412061 : [Level 34] null
+202412062 : [Level 44] null
+202412063 : [Level 54] null
+202412064 : [Level 64] null
+202412065 : [Level 75] null
+202412066 : [Level 88] null
+202412310 : [Level 44] Howling Casket
+202412311 : [Level 44] Howling Casket
+202412312 : [Level 54] Howling Casket
+202412313 : [Level 64] Howling Casket
+202412314 : [Level 74] Howling Casket
+202412315 : [Level 83] Howling Casket
+202412316 : [Level 92] Howling Casket
 203110050 : [Level 40] null
 203110051 : [Level 40] null
 203110052 : [Level 50] null
@@ -22793,6 +23508,7 @@
 2004011 : Stellaron Hunter: Kafka (Complete)
 2004012 : Stellaron Hunter: Kafka (Complete)
 2004013 : Stellaron Hunter: Kafka (Illusion)
+2004014 : Soulhook Sovereign
 2004020 : Cloud Knight Lieutenant: Yanqing
 2004021 : Cloud Knight Lieutenant: Yanqing (Complete)
 2004022 : Cloud Knight Lieutenant: Yanqing (Complete)
@@ -22835,6 +23551,9 @@
 2024015 : Abundant Ebon Deer (Complete)
 2024020 : Cirrus
 2024021 : Cirrus (Complete)
+2032010 : Sableclaw Wolftrooper
+2032020 : Eclipse Wolftrooper
+2033010 : Howling Casket
 3001010 : Dreamjolt Troupe's Spring Loader
 3001020 : Dreamjolt Troupe's Birdskull
 3002010 : Dreamjolt Troupe's Mr. Domescreen
@@ -22844,6 +23563,7 @@
 3002050 : Lordly Trashcan
 3002051 : Lordly Trashcan (Projection)
 3002052 : Lordly Trashcan
+3002053 : Lordly Trashcan (Projection)
 3002089 : null
 3003010 : Dreamjolt Troupe's Beyond Overcooked
 3003011 : Dreamjolt Troupe's Beyond Overcooked (Projection)
@@ -22950,6 +23670,8 @@
 8012142 : Dawn's Left Hand
 8012143 : Disaster's Right Hand
 8012145 : Dawn's Left Hand
+8012146 : Disaster's Right Hand
+8012147 : Dawn's Left Hand
 8012200 : Abundance Lotus
 8012201 : Abundance Lotus
 8012202 : Abundance Lotus
@@ -22964,8 +23686,10 @@
 8013013 : Voidranger: Trampler
 8013141 : Antimatter Engine
 8013144 : Antimatter Engine
+8013145 : Antimatter Engine
 8015010 : Doomsday Beast
 8015011 : Doomsday Beast
+8015012 : Starbane Doombringer
 8015020 : Phantylia the Undying
 8015021 : Phantylia the Undying
 8022010 : Juvenile Sting
@@ -22982,6 +23706,7 @@
 8032032 : "All or Nothing"
 8033010 : Senior Staff: Team Leader
 8033011 : Senior Staff: Team Leader (Bug)
+8033013 : Senior Staff: Team Leader
 8034010 : Ten Stonehearts: Aventurine of Stratagems
 8034011 : Ten Stonehearts: Aventurine of Stratagems (Complete)
 100201101 : Ice Edge
@@ -23138,6 +23863,7 @@
 100301023 : Silvermane Lieutenant
 100301024 : Silvermane Lieutenant
 100301025 : Silvermane Lieutenant
+100301028 : Silvermane Lieutenant
 100301101 : Silvermane Lieutenant (Bug)
 100401001 : Cocolia
 100401002 : Cocolia
@@ -23148,6 +23874,7 @@
 100401007 : Cocolia
 100401008 : Cocolia
 100401010 : Cocolia
+100401011 : Cocolia
 100401401 : Annihilator of Desolation Mistral
 100401402 : Annihilator of Desolation Mistral
 100401403 : Annihilator of Desolation Mistral
@@ -23169,12 +23896,14 @@
 100402604 : Gepard
 100402701 : Gepard
 100402702 : Gepard
+100402703 : Gepard
 100403001 : Bronya
 100403002 : Bronya
 100403003 : Bronya
 100403004 : Bronya
 100403005 : Bronya
 100403006 : Bronya
+100403007 : Bronya
 100403101 : Bronya (Complete)
 100403102 : Bronya (Complete)
 100501401 : Annihilator of Desolation Mistral: Mother of Deception
@@ -23256,6 +23985,7 @@
 101301023 : Automaton Grizzly
 101301024 : Automaton Grizzly
 101301025 : Automaton Grizzly
+101301026 : Automaton Grizzly
 101301101 : Automaton Grizzly (Bug)
 101302001 : Automaton Direwolf
 101302002 : Automaton Direwolf
@@ -23295,8 +24025,10 @@
 101401010 : Svarog
 101401011 : Svarog
 101401012 : Svarog
+101401013 : Svarog
 101401301 : Svarog
 101401302 : Svarog
+101401303 : Svarog
 102201001 : Everwinter Shadewalker
 102201002 : Everwinter Shadewalker
 102201003 : Everwinter Shadewalker
@@ -23355,6 +24087,8 @@
 102301016 : Searing Prowler
 102301017 : Searing Prowler
 102301018 : Searing Prowler
+102301019 : Searing Prowler
+102301020 : Searing Prowler
 102302001 : Frigid Prowler
 102302002 : Frigid Prowler
 102302003 : Frigid Prowler
@@ -23370,18 +24104,23 @@
 200201006 : Cloud Knights Patroller
 200201007 : Cloud Knights Patroller
 200201008 : Cloud Knights Patroller
+200201009 : Cloud Knights Patroller
 200202001 : Flying Sword
 200202002 : Flying Sword
 200202003 : Flying Sword (Illusion)
+200202004 : Flying Sword
 200202101 : Flying Sword
 200202102 : Flying Sword
 200202103 : Flying Sword (Illusion)
+200202104 : Flying Sword
 200203001 : Wraith Warden
 200203002 : Wraith Warden
 200203003 : Delirious Wraith Warden
 200203004 : Wraith Warden
 200203005 : Wraith Warden
 200203103 : Wraith Warden
+200203104 : Wraith Warden
+200203106 : Wraith Warden
 200203201 : Wraith Warden
 200203202 : Wraith Warden
 200401001 : Stellaron Hunter: Kafka
@@ -23391,6 +24130,11 @@
 200401005 : Stellaron Hunter: Kafka
 200401006 : Stellaron Hunter: Kafka
 200401007 : Stellaron Hunter: Kafka
+200401008 : Stellaron Hunter: Kafka
+200401401 : Soulhook Sovereign
+200401402 : Soulhook Sovereign
+200401403 : Soulhook Sovereign
+200401404 : Soulhook Sovereign
 200402001 : Cloud Knight Lieutenant: Yanqing
 200402002 : Cloud Knight Lieutenant: Yanqing
 200402003 : Heliobus-Possessed Yanqing
@@ -23398,14 +24142,19 @@
 200402005 : Cloud Knight Lieutenant: Yanqing
 200402006 : Cloud Knight Lieutenant: Yanqing
 200402007 : Cloud Knight Lieutenant: Yanqing
+200402008 : Strict Master Yanqing
+200402009 : Cloud Knight Lieutenant: Yanqing
+200402102 : Strict Master Yanqing (Serious Mode)
 200402201 : Cloud Knight Lieutenant: Yanqing (Complete)
 200402401 : Cloud Knight Lieutenant: Yanqing
 201101001 : Entranced Ingenium: Obedient Dracolion
 201101002 : Entranced Ingenium: Obedient Dracolion
 201101003 : Entranced Ingenium: Obedient Dracolion
+201101004 : Entranced Ingenium: Obedient Dracolion
 201102001 : Entranced Ingenium: Golden Cloud Toad
 201102002 : Entranced Ingenium: Golden Cloud Toad
 201102003 : Entranced Ingenium: Golden Cloud Toad
+201102004 : Entranced Ingenium: Golden Cloud Toad
 201201001 : Metrical Poet
 201201002 : Entranced Ingenium: Illumination Dragonfish
 201201003 : Entranced Ingenium: Illumination Dragonfish
@@ -23414,6 +24163,8 @@
 201201006 : Entranced Ingenium: Illumination Dragonfish
 201201007 : Entranced Ingenium: Illumination Dragonfish
 201201008 : Entranced Ingenium: Illumination Dragonfish
+201201009 : Entranced Ingenium: Illumination Dragonfish
+201201010 : Entranced Ingenium: Illumination Dragonfish
 201301001 : Borderland Poet
 201301002 : Aurumaton Gatekeeper
 201301003 : Aurumaton Gatekeeper
@@ -23421,7 +24172,9 @@
 201301005 : Aurumaton Gatekeeper
 201301006 : Aurumaton Gatekeeper
 201301007 : Aurumaton Gatekeeper
+201301008 : Aurumaton Gatekeeper
 201301101 : Aurumaton Gatekeeper (Bug)
+201301102 : Aurumaton Gatekeeper (Rampage Mode)
 201302001 : Aurumaton Spectral Envoy
 201302002 : Aurumaton Spectral Envoy
 201302003 : Aurumaton Spectral Envoy
@@ -23460,6 +24213,7 @@
 202205003 : Abundance Sprite: Wooden Lupus
 202205004 : Abundance Sprite: Wooden Lupus
 202205005 : Abundance Sprite: Wooden Lupus
+202205006 : Lyndon "Lonewolf" Skott
 202206001 : Furtive Assassin
 202206002 : Disciples of Sanctus Medicus: Ballistarius
 202206003 : Disciples of Sanctus Medicus: Ballistarius
@@ -23469,6 +24223,8 @@
 202206007 : Disciples of Sanctus Medicus: Ballistarius
 202206008 : Disciples of Sanctus Medicus: Ballistarius
 202206009 : Disciples of Sanctus Medicus: Ballistarius
+202206010 : Disciples of Sanctus Medicus: Ballistarius
+202206011 : Disciples of Sanctus Medicus: Ballistarius
 202207001 : Twig of Wintry Wind
 202207002 : Twig of Wintry Wind
 202207003 : Twig of Wintry Wind
@@ -23498,6 +24254,7 @@
 202301010 : Disciples of Sanctus Medicus: Shape Shifter
 202301011 : Disciples of Sanctus Medicus: Shape Shifter
 202301012 : Disciples of Sanctus Medicus: Shape Shifter
+202301013 : Disciples of Sanctus Medicus: Shape Shifter
 202301101 : Disciples of Sanctus Medicus: Shape Shifter (Bug)
 202302001 : Abundance Sprite: Malefic Ape
 202302002 : Phantylia
@@ -23508,6 +24265,7 @@
 202302007 : Abundance Sprite: Malefic Ape
 202302008 : Abundance Sprite: Malefic Ape
 202302009 : Abundance Sprite: Malefic Ape
+202302011 : Abundance Sprite: Malefic Ape
 202303001 : The Ascended
 202303002 : Master of the Disciples of Sanctus Medicus
 202303003 : Phantylia
@@ -23520,11 +24278,13 @@
 202303010 : The Ascended
 202303011 : The Ascended
 202303012 : The Ascended
+202303013 : The Ascended
 202401001 : Abundant Ebon Deer
 202401002 : Abundant Ebon Deer
 202401004 : Abundant Ebon Deer
 202401005 : Abundant Ebon Deer
 202401006 : Abundant Ebon Deer
+202401007 : Abundant Ebon Deer
 202401201 : Abundant Ebon Deer (Complete)
 202401401 : Abundant Ebon Deer
 202401402 : Abundant Ebon Deer
@@ -23536,6 +24296,10 @@
 202402004 : Cirrus
 202402005 : Cirrus
 202402006 : Cirrus
+203202003 : Eclipse Wolftrooper
+203301001 : Howling Casket
+203301002 : Howling Casket
+203301003 : Howling Casket
 300101001 : Cocona's Kindness
 300101002 : Dreamjolt Troupe's Spring Loader
 300101003 : Dreamjolt Troupe's Spring Loader
@@ -23552,6 +24316,8 @@
 300201006 : Ternary Assimilation Unit
 300201007 : Ternary Assimilation Unit
 300201008 : Dreamjolt Troupe's Mr. Domescreen
+300202001 : Dreamjolt Troupe's Fortune Seller
+300202002 : Dreamjolt Troupe's Fortune Seller
 300203001 : Dreamjolt Troupe's Bubble Hound
 300203002 : Cocona's Principle
 300203003 : Dreamjolt Troupe's Bubble Hound
@@ -23571,17 +24337,25 @@
 300301002 : Dreamjolt Troupe's Beyond Overcooked
 300301003 : Dreamjolt Troupe's Beyond Overcooked
 300301004 : Dreamjolt Troupe's Beyond Overcooked
+300301005 : Dreamjolt Troupe's Beyond Overcooked
+300301006 : Dreamjolt Troupe's Beyond Overcooked
 300301101 : Dreamjolt Troupe's Beyond Overcooked (Projection)
 300301201 : Dreamjolt Troupe's Beyond Overcooked (Bug)
+300301401 : Dreamjolt Troupe's Beyond Overcooked
+300301402 : Dreamjolt Troupe's Beyond Overcooked
+300301403 : Dreamjolt Troupe's Beyond Overcooked
+300301404 : Dreamjolt Troupe's Beyond Overcooked
 300302001 : Dreamjolt Troupe's Sweet Gorilla
 300302002 : Dreamjolt Troupe's Sweet Gorilla
 300302003 : Dreamjolt Troupe's Sweet Gorilla
 300302004 : Dreamjolt Troupe's Sweet Gorilla
 300303001 : "Past Confined and Caged"
+300303002 : "Past Confined and Caged"
 300303101 : "Past Confined and Caged"
 300304101 : "Tomorrow in Harmonious Chords"
 300305001 : "Present Inebriated in Revelry"
 300305002 : "Present Inebriated in Revelry"
+300305003 : "Present Inebriated in Revelry"
 300305101 : "Present Inebriated in Revelry"
 300401001 : The Past, Present, and Eternal Show
 301201001 : Memory Zone Meme "Something In The Mirror"
@@ -23589,6 +24363,11 @@
 301202002 : Memory Zone Meme "Heartbreaker"
 301301001 : Memory Zone Meme "Shell of Faded Rage"
 301301002 : Memory Zone Meme "Shell of Faded Rage"
+301301003 : Memory Zone Meme "Shell of Faded Rage"
+301301201 : Memory Zone Meme "Shell of Faded Rage"
+301301202 : Memory Zone Meme "Shell of Faded Rage"
+301301203 : Memory Zone Meme "Shell of Faded Rage"
+301301204 : Memory Zone Meme "Shell of Faded Rage"
 301402001 : Memory Zone Meme "Something Unto Death"
 301402002 : Memory Zone Meme "Something Unto Death"
 301402003 : Memory Zone Meme "Something Unto Death"
@@ -23610,6 +24389,7 @@
 302401006 : Argenti
 302401007 : Argenti
 302401008 : Argenti
+302401009 : Argenti
 302401101 : Argenti (Complete)
 302401201 : Argenti
 302401202 : Argenti
@@ -23623,6 +24403,7 @@
 302402003 : Stellaron Hunter: Sam
 302402004 : Stellaron Hunter: Sam
 302402201 : Stellaron Hunter: Sam
+302402202 : Stellaron Hunter: Sam
 302501001 : "Embryo of Philosophy" Sunday
 800101001 : Flamespawn
 800101002 : Flamespawn
@@ -23667,6 +24448,9 @@
 800103006 : Mask of No Thought
 800103007 : Mask of No Thought
 800103008 : Mask of No Thought
+800103009 : Mask of No Thought
+800103010 : Mask of No Thought
+800103011 : Mask of No Thought
 800104001 : Thunderspawn
 800104002 : Thunderspawn
 800104003 : Thunderspawn
@@ -23687,6 +24471,7 @@
 800201012 : Imaginary Weaver
 800201015 : Imaginary Weaver
 800201016 : Imaginary Weaver
+800201017 : Imaginary Weaver
 800204001 : Warp Trotter
 800204002 : Warp Trotter
 800204003 : Warp Trotter
@@ -23775,6 +24560,10 @@
 800301015 : Ice Out of Space
 800301016 : Ice Out of Space
 800301101 : Ice Out of Space (Bug)
+800301201 : Ice Out of Space
+800301202 : Ice Out of Space
+800301203 : Ice Out of Space
+800301204 : Ice Out of Space
 800302001 : Blaze Out of Space
 800302002 : Blaze Out of Space
 800302003 : Blaze Out of Space
@@ -23795,7 +24584,12 @@
 800302019 : Blaze Out of Space
 800302020 : Blaze Out of Space
 800302021 : Blaze Out of Space
+800302022 : Blaze Out of Space
 800302101 : Blaze Out of Space (Bug)
+800302201 : Blaze Out of Space
+800302202 : Blaze Out of Space
+800302203 : Blaze Out of Space
+800302204 : Blaze Out of Space
 800303001 : Guardian Shadow
 800303002 : Guardian Shadow
 800303003 : Guardian Shadow
@@ -23844,6 +24638,7 @@
 800305016 : Stormbringer
 800305017 : Stormbringer
 800305018 : Stormbringer
+800305019 : Stormbringer
 801101001 : Baryon
 801101002 : Baryon
 801101003 : Baryon
@@ -23892,6 +24687,7 @@
 801201028 : Voidranger: Reaver
 801201029 : Voidranger: Reaver
 801201030 : Voidranger: Reaver
+801201031 : Voidranger: Reaver
 801202001 : Voidranger: Distorter
 801202002 : Voidranger: Distorter
 801202003 : Voidranger: Distorter
@@ -23918,6 +24714,14 @@
 801203007 : Voidranger: Eliminator
 801203008 : Voidranger: Eliminator
 801203009 : Voidranger: Eliminator
+801214601 : Disaster's Right Hand
+801214602 : Disaster's Right Hand
+801214603 : Disaster's Right Hand
+801214604 : Disaster's Right Hand
+801214701 : Dawn's Left Hand
+801214702 : Dawn's Left Hand
+801214703 : Dawn's Left Hand
+801214704 : Dawn's Left Hand
 801301001 : Voidranger: Trampler
 801301002 : Voidranger: Trampler
 801301003 : Voidranger: Trampler
@@ -23939,12 +24743,21 @@
 801301021 : Voidranger: Trampler
 801301022 : Voidranger: Trampler
 801301023 : Voidranger: Trampler
+801314501 : Antimatter Engine
+801314502 : Antimatter Engine
+801314503 : Antimatter Engine
+801314504 : Antimatter Engine
+801501201 : Starbane Doombringer
+801501202 : Starbane Doombringer
+801501203 : Starbane Doombringer
+801501204 : Starbane Doombringer
 802201001 : Juvenile Sting
 802202001 : Lesser Sting
 802202002 : Lesser Sting
 802202003 : Lesser Sting
 802401101 : Swarm: True Sting
 802401102 : Swarm: True Sting
+802401103 : Swarm: True Sting
 802501001 : Starcrusher Swarm King: Skaracabaz (Synthetic)
 803201001 : Grunt: Field Personnel
 803201002 : Grunt: Field Personnel
@@ -23960,14 +24773,17 @@
 803202005 : Grunt: Security Personnel
 803202006 : Grunt: Security Personnel
 803202007 : Grunt: Security Personnel
+803202008 : Grunt: Security Personnel
 803301001 : Senior Staff: Team Leader
 803301002 : Senior Staff: Team Leader (Illusion)
 803301003 : Senior Staff: Team Leader
 803301004 : Senior Staff: Team Leader
 803301005 : Senior Staff: Team Leader
 803301006 : Senior Staff: Team Leader
+803301009 : Senior Staff: Team Leader
 803301101 : Senior Staff: Team Leader (Bug)
 803301202 : Senior Staff: Team Leader (Illusion)
+803301301 : Senior Staff: Team Leader
 803401001 : Ten Stonehearts: Aventurine of Stratagems
 803401002 : Ten Stonehearts: Aventurine of Stratagems
 803401003 : Ten Stonehearts: Aventurine of Stratagems
@@ -24010,6 +24826,7 @@
 20231 : [Maze] Alchemy Commission
 20232 : [Maze] Scalegorge Waterscape
 20233 : [Maze] Roots of the Arbor
+20241 : [Maze] The Shackling Prison
 20311 : [Maze] The Reverie (Dreamscape)
 20312 : [Maze] A Child's Dream
 20313 : [Maze] Dream's Edge
@@ -24028,6 +24845,7 @@
 30122 : [Challenge] null
 30123 : [Challenge] null
 30124 : [Challenge] null
+30125 : [Challenge] null
 30201 : [Raid] Cavern of Corrosion
 30301 : [Raid] null
 30401 : [Raid] null
@@ -24036,6 +24854,7 @@
 30502 : [TrialActivity] null
 30521 : [TrialActivity] null
 30523 : [TrialActivity] null
+30524 : [TrialActivity] null
 40000 : [Raid] null
 40002 : [Raid] null
 40003 : [Raid] null
@@ -24052,6 +24871,11 @@
 40231 : [Raid] null
 40232 : [Raid] null
 40233 : [Raid] null
+40234 : [Raid] null
+40235 : [Raid] null
+40236 : [Raid] null
+40237 : [Raid] null
+40238 : [Raid] null
 40312 : [Raid] null
 41000 : [Raid] null
 41007 : [Raid] null
@@ -24060,6 +24884,7 @@
 41010 : [Raid] null
 41011 : [Raid] null
 41012 : [Raid] null
+41212 : [Raid] null
 41221 : [Raid] null
 42221 : [Raid] null
 43001 : [Raid] null
